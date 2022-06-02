@@ -13,7 +13,7 @@ int main()
     }
     for (int i = 0; i < n; i++)
     {
-        mx = max(mx, a[i]);
+        mx = max(mx, a[i]
         cout << mx << endl;
     }
     return 0;
