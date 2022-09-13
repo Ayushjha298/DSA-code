@@ -11,7 +11,7 @@ class node{
         next=NULL;
     }
 };
-void insertAaTail(node *head,int val){
+void insertAaTail(node* &head,int val){
     node*n=new node(val);
     if(head==NULL){
         head=n;

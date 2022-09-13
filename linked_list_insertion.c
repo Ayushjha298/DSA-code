@@ -76,7 +76,8 @@ int main()
     fourth->data = 66;
     fourth->next = NULL;
     linkedListTraversal(head);
-    head = insertAfterNode(head, second, 45);
+    //head = insertAfterNode(head, second, 45);
+    head= insertAtEnd(head,8);
     linkedListTraversal(head);
     return 0;
 }

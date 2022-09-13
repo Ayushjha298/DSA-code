@@ -40,7 +40,7 @@ void push(struct stack *ptr,int val){
 int pop(struct stack *ptr){
     if(isEmpty(ptr)){
         printf("Stack underflow\n");
-        return-1;
+        return -1;
     }
     else{
         int val=ptr->arr[ptr->top];
